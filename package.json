@@ -10,5 +10,8 @@
     "test": "open test/index.html"
   },
   "author": "",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^8.37.0"
+  }
 }

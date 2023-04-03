@@ -1,3 +1,10 @@
-var Grub = function() {
+const Grub = function(age, color, food) {
+  this.age = age || 0;
+  this.color = color || 'pink';
+  this.food = food || 'jelly';
+};
+
+Grub.prototype.eat = function () {
+  console.log('It is eating');
 };
 
